@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+// import App from './App';
+import App from './components/01-子传父';
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
