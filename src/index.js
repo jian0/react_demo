@@ -4,7 +4,8 @@ import ReactDOM from 'react-dom';
 // import App from './components/01-子传父';
 // import App from './components/02-非受控表单';
 // import App from './components/03-props插槽';
-import App from './components/04-btn测试局部样式';
+// import App from './components/04-btn测试局部样式';
+import App from './components/05-测试路由';
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
