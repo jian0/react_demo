@@ -1,14 +1,6 @@
-const defaultState ={
-    num: 10000
-}
-
-export default(state = defaultState,action) =>{
-    console.log(state.num); //num:10000
-    // console.log(action);
-    let newState = JSON.parse(JSON.stringify(state))
-    if(action.type === "add"){
-        newState.num += action.unit
-        return newState
-    }
-    return state
-}
+// 引入子管理员
+import cartRenducer from "./cartReducer"
+//引入管理员合并函数
+import {combineReducers} from "redux"
+// 合并并导出
+export default combineReducers({cartRenducer})
